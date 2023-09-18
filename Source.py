@@ -22,7 +22,7 @@ def HEPT(PT1, PT2, space):
         return 0
     else:
         return 1 # cat nhau
-def VUONGGOC(a, b, space):
+def KTVUONGGOC(a, b, space):
     X0 = a[2] - a[0]
     Y0 = a[3] - a[1]
     X1 = b[2] - b[0]
